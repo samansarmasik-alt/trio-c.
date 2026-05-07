@@ -208,8 +208,41 @@ function initActiveNav() {
     }
 }
 
+/* ══════════ TIME-BASED THEME ══════════ */
+function initTimeTheme() {
+    function getTheme(h) {
+        if (h >= 6 && h < 12) return { cls: 'theme-morning', label: 'Günaydın ☀️', primary: '#f59e0b' };
+        if (h >= 12 && h < 17) return { cls: 'theme-noon', label: 'İyi Günler 🌤️', primary: '#ef4444' };
+        if (h >= 17 && h < 21) return { cls: 'theme-evening', label: 'İyi Akşamlar 🌅', primary: '#a855f7' };
+        return { cls: 'theme-night', label: 'İyi Geceler 🌙', primary: '#3b82f6' };
+    }
+    function applyTheme() {
+        const h = new Date().getHours();
+        const theme = getTheme(h);
+        document.body.classList.remove('theme-morning','theme-noon','theme-evening','theme-night');
+        document.body.classList.add(theme.cls);
+        document.documentElement.style.setProperty('--primary', theme.primary);
+        // Update time indicator
+        const ti = document.getElementById('timeIndicator');
+        if (ti) {
+            const now = new Date();
+            const time = now.toLocaleTimeString('tr-TR', { hour:'2-digit', minute:'2-digit' });
+            ti.querySelector('.time-text').textContent = theme.label + ' · ' + time;
+        }
+    }
+    // Create time indicator
+    const indicator = document.createElement('div');
+    indicator.className = 'time-indicator';
+    indicator.id = 'timeIndicator';
+    indicator.innerHTML = '<span class="dot"></span><span class="time-text"></span>';
+    document.body.appendChild(indicator);
+    applyTheme();
+    setInterval(applyTheme, 60000);
+}
+
 /* ══════════ INIT ══════════ */
 document.addEventListener('DOMContentLoaded', () => {
+    initTimeTheme();
     initBricks();
     initHeroSlider();
     initReveal();
