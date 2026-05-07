@@ -1,0 +1,154 @@
+{
+  "company": {
+    "name": "Trio Çelik",
+    "slogan": "Güçlü Altyapılar, Sağlam Gelecekler",
+    "description": "Hafriyat, madencilik, çelik yapı, taahhüt ve akaryakıt sektörlerinde faaliyet gösteren köklü firma.",
+    "foundedYear": 2005,
+    "stats": {
+      "years": "19+",
+      "projects": "200+",
+      "vehicles": "80+",
+      "workers": "150+"
+    }
+  },
+  "contact": {
+    "merkez": {
+      "title": "Merkez Ofis",
+      "address": "Meydan Kavağı Mahallesi, Perge Bulvarı Atmaca İş Merkezi, C Blok No.74 D.12",
+      "city": "Muratpaşa / Antalya / Turkey",
+      "phone": "+90 (242) 322 44 66",
+      "fax": "+90 (242) 321 51 61"
+    },
+    "sube1": {
+      "title": "Manisa Şube",
+      "address": "İzmir Bursa Surat Yolu, Nuriye Yol Kavşağı, İshakçelebi Kasabası",
+      "city": "Saruhanlı / Manisa",
+      "phone": "+90 (236) 377 52 32",
+      "fax": "+90 (236) 377 52 25"
+    },
+    "sube2": {
+      "title": "Korkuteli Şube",
+      "address": "Antalya - Korkuteli Yolu, 30. Km. Bayatbademleri Köyü",
+      "city": "Korkuteli / Antalya",
+      "phone": "+90 (242) 669 10 10",
+      "fax": "+90 (242) 669 10 11"
+    },
+    "email": "info@triocelik.com.tr",
+    "workingHours": "Pazartesi - Cumartesi: 08:00 - 18:00",
+    "socialMedia": {
+      "facebook": "https://www.facebook.com/triocelik",
+      "twitter": "https://twitter.com/triocelik",
+      "instagram": "https://www.instagram.com/triocelik"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "paragraphs": [
+      "Trio Çelik, hafriyat, madencilik, çelik yapı, taahhüt ve altyapı sektörlerinde faaliyet gösteren köklü bir firmadır.",
+      "Modern makine parkımız ve deneyimli ekibimizle Türkiye ve yurtdışında büyük ölçekli projelerde güvenilir çözümler sunmaktayız.",
+      "Müşteri memnuniyetini ön planda tutan yaklaşımımız, kalite standartlarına olan bağlılığımız ve zamanında teslim politikamızla sektörde güvenilir bir marka haline geldik."
+    ],
+    "values": [
+      { "icon": "fas fa-shield-alt", "title": "İş Güvenliği", "desc": "Uluslararası standartlarda İSG uygulamaları" },
+      { "icon": "fas fa-check-circle", "title": "Kalite Garantisi", "desc": "ISO sertifikalı süreçler" },
+      { "icon": "fas fa-clock", "title": "Zamanında Teslimat", "desc": "Proje takvimlerine tam uyum" },
+      { "icon": "fas fa-users", "title": "Uzman Kadro", "desc": "Konusunda uzman mühendis kadrosu" },
+      { "icon": "fas fa-handshake", "title": "Güven", "desc": "Yılların getirdiği güvenilirlik" },
+      { "icon": "fas fa-cogs", "title": "Güçlü Makine Parkı", "desc": "Modern ve bakımlı iş makineleri" }
+    ]
+  },
+  "services": [
+    {
+      "id": "tas-ocagi",
+      "title": "Taş Ocağı",
+      "icon": "fas fa-mountain",
+      "description": "Firmamız adına ruhsatlı Antalya Korkuteli 30. Kilometrede 1.000.000 m2 alan üzerine kurulu 600 ton/saat kapasitede faaliyet gösteren taş ocağımız ve konkasör tesisimiz ile beton santralleri, asfalt plentleri bunun yanı sıra inşaatlara ve altyapı işlerine agrega üretimi ve kendi nakliye grubumuzla sevkiyatını gerçekleştirmekteyiz.",
+      "image": "images/real/hak_tas.jpg"
+    },
+    {
+      "id": "hafriyat",
+      "title": "Hafriyat & Taahhüt",
+      "icon": "fas fa-hard-hat",
+      "description": "Her ölçekteki hafriyat, kazı ve dolgu işlerinde modern ekipmanlarımız ve uzman kadromuzla güvenilir, hızlı ve ekonomik çözümler sunuyoruz. Yol yapımı, baraj, tünel ve büyük ölçekli altyapı projelerinde uluslararası standartlarda hizmet veriyoruz.",
+      "image": "images/real/slayt2-1.jpg"
+    },
+    {
+      "id": "akaryakit",
+      "title": "Shell Akaryakıt İstasyonu",
+      "icon": "fas fa-gas-pump",
+      "description": "Akaryakıt istasyonu işletmeciliğinde Shell markası altında kaliteli yakıt ve güvenilir hizmet anlayışıyla müşterilerimize kesintisiz hizmet sunuyoruz.",
+      "image": "images/real/hak_she.jpg"
+    },
+    {
+      "id": "celik-yapi",
+      "title": "Çelik Yapı & Konstrüksiyon",
+      "icon": "fas fa-building",
+      "description": "Endüstriyel çelik yapılar, fabrika binaları, depolama tesisleri ve özel çelik konstrüksiyon projelerinde anahtar teslim çözümler sunuyoruz.",
+      "image": "images/real/oz_01_grid.jpg"
+    },
+    {
+      "id": "nakliye",
+      "title": "Nakliye & Lojistik",
+      "icon": "fas fa-truck",
+      "description": "Ağır tonajlı malzeme taşımacılığı, şantiye lojistiği ve proje bazlı nakliye hizmetlerinde güçlü filomuzla yanınızdayız.",
+      "image": "images/real/slayt4.jpg"
+    },
+    {
+      "id": "madencilik",
+      "title": "Madencilik",
+      "icon": "fas fa-gem",
+      "description": "Taş ocağı işletmeciliği, kırma-eleme tesisleri ve maden sahası operasyonlarında yılların deneyimiyle sektöre değer katıyoruz.",
+      "image": "images/real/slayt3.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Rusya Konut Projesi",
+      "location": "Gudermes, Rusya",
+      "description": "Rusya'nın Gudermes şehrinde yaklaşık 200.000 m2 kapalı alana sahip konut projesi. Tüm mimari ve mühendislik projelendirme hizmetlerinin yanı sıra inşaatın tamamı bünyemizdeki ekipman ve tecrübeli ekibimiz tarafından tamamlanmıştır.",
+      "category": "Taahhüt",
+      "images": ["images/real/ru_01_grid.jpg", "images/real/ru_02_grid.jpg", "images/real/ru_03_grid.jpg", "images/real/ru_04_grid.jpg"]
+    },
+    {
+      "title": "Özbekistan Çelik Yapı Projesi",
+      "location": "Özbekistan",
+      "description": "Özbekistan'da büyük ölçekli çelik yapı ve konstrüksiyon projesi. Fabrika binaları ve endüstriyel tesisler.",
+      "category": "Çelik Yapı",
+      "images": ["images/real/oz_01_grid.jpg", "images/real/oz_02_grid.jpg", "images/real/oz_03_grid.jpg", "images/real/oz_04_grid.jpg"]
+    },
+    {
+      "title": "Yurtiçi Hafriyat Projesi",
+      "location": "Türkiye",
+      "description": "Türkiye genelinde büyük ölçekli hafriyat ve kazı operasyonları.",
+      "category": "Hafriyat",
+      "images": ["images/real/ii_01_grid.jpg", "images/real/ii_02_grid.jpg"]
+    },
+    {
+      "title": "Yurtiçi Madencilik Projesi",
+      "location": "Türkiye",
+      "description": "Türkiye'de maden sahası operasyonları ve taş ocağı işletmeciliği.",
+      "category": "Madencilik",
+      "images": ["images/real/ii1_01_grid.jpg", "images/real/ii1_02_grid.jpg"]
+    }
+  ],
+  "fleet": [
+    { "model": "2022 MODEL", "brand": "KLEEMAN", "type": "EVO 130", "category": "MOBİL KONKASÖR", "capacity": "50 TON" },
+    { "model": "2001 MODEL", "brand": "CATERPILLER", "type": "D 9R", "category": "DOZER", "capacity": "50 TON" },
+    { "model": "2005 MODEL", "brand": "CATERPILLER", "type": "D 8R", "category": "DOZER", "capacity": "40 TON" },
+    { "model": "1992 MODEL", "brand": "CATERPILLER", "type": "D 6T", "category": "DOZER", "capacity": "23 TON" },
+    { "model": "2023 MODEL", "brand": "KOMATSU", "type": "D65 EX", "category": "DOZER", "capacity": "20 TON" },
+    { "model": "2015 MODEL", "brand": "KOMATSU", "type": "D65 EX", "category": "DOZER", "capacity": "20 TON" },
+    { "model": "2015 MODEL", "brand": "KOMATSU", "type": "D65 EX", "category": "DOZER", "capacity": "20 TON" },
+    { "model": "2013 MODEL", "brand": "CATERPILLER", "type": "963D", "category": "PALETLİ LODER", "capacity": "20 TON" },
+    { "model": "2007 MODEL", "brand": "SANDVIK", "type": "RANGER DX700", "category": "KAYA DELİCİ", "capacity": "15 TON" },
+    { "model": "2009 MODEL", "brand": "CATERPILLER", "type": "160M", "category": "GREYDER", "capacity": "20 TON" },
+    { "model": "2011 MODEL", "brand": "CATERPILLER", "type": "140M", "category": "GREYDER", "capacity": "18 TON" },
+    { "model": "2022 MODEL", "brand": "JOHN-DEERE", "type": "670GP", "category": "GREYDER", "capacity": "18 TON" },
+    { "model": "2022 MODEL", "brand": "JOHN-DEERE", "type": "670GP", "category": "GREYDER", "capacity": "18 TON" },
+    { "model": "2002 MODEL", "brand": "CATERPILLER", "type": "140H", "category": "GREYDER", "capacity": "15 TON" },
+    { "model": "2001 MODEL", "brand": "CATERPILLER", "type": "140H", "category": "GREYDER", "capacity": "15 TON" },
+    { "model": "2022 MODEL", "brand": "HAMM", "type": "BD 3516", "category": "TOPRAK SİLİNDİRİ", "capacity": "16 TON" },
+    { "model": "2020 MODEL", "brand": "HITACHI", "type": "ZAXIS690 LCH-3", "category": "PALETLİ EKSKAVATÖR", "capacity": "70 TON" },
+    { "model": "2019 MODEL", "brand": "HITACHI", "type": "ZAXIS690 LCH-3", "category": "PALETLİ EKSKAVATÖR", "capacity": "70 TON" }
+  ]
+}
